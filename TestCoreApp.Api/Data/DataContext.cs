@@ -10,5 +10,7 @@ namespace TestCoreApp.Api.Data
         }
 
         public DbSet<value> Values { get; set; }
+
+        public DbSet<User> Users { get; set; }
     }
 }
